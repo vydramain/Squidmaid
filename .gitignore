@@ -1,32 +1,54 @@
-# Prerequisites
-*.d
+# Godot 4+ specific ignores
+addons/
+android/
+godot/
+.import/
+.export/
+*.import
+*.godot/tmp/*
+*.godot/shader_cache/*
+*.translation
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Exported binaries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
+*.pck
+*.zip
 
-# Fortran module files
-*.mod
-*.smod
+# Godot build output
+bin/
 
-# Compiled Static libraries
-*.lai
-*.la
+# C++ build artifacts
+/build/
+*.o
+*.obj
 *.a
 *.lib
+*.exp
+*.log
+*.sdf
+*.suo
+*.VC.db
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
-# Executables
-*.exe
-*.out
-*.app
+# Godot C++ bindings (godot-cpp) build artifacts
+godot-cpp/bin/
+godot-cpp/lib/
+godot-cpp/gen/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files (optional - add based on your editor)
+.vscode/
+.idea/
+*.code-workspace
+compile_commands.json
+
