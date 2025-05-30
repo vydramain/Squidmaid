@@ -5,8 +5,6 @@ godot/
 .import/
 .export/
 *.import
-*.godot/tmp/*
-*.godot/shader_cache/*
 *.translation
 
 # Exported binaries
